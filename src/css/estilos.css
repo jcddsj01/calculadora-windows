@@ -4,6 +4,7 @@
     --color-display-calculator: #000;
     --color-previous-operation: #777;
     --color-background-all-buttons: #dbdbdb;
+    --color-all-buttons: #000;
     --color-background-button-number: #f3f3f3;
     --color-background-button-equal: #0067c0;
     --color-button-equal: #dbdbdb;
@@ -84,6 +85,7 @@ body {
     height: 3.5em;
     font-size: 1.2em;
     background-color: var(--color-background-all-buttons);
+    color: var(--color-all-buttons);
     /* cursor: pointer; */
 }
 
